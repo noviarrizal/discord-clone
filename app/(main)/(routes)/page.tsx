@@ -1,7 +1,9 @@
+import { UserButton } from '@clerk/nextjs';
+
 export default function Home() {
   return (
     <main>
-      <p>Discord Pretected Routes</p>
+      <UserButton afterSignOutUrl="/" />
     </main>
   );
 }
